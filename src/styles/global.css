@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* body */
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+/* font-family: "Bree Serif", serif;
+font-weight: 400;
+font-style: normal; */
+/* main heads */
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Itim&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+
+:root {
+  --p-50: #461dd3;
+  --pc-60: #634caf;
+  --s-100: #a096cc;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+html,
+body {
+  min-height: 100%;
+  scroll-behavior: smooth;
+  font-family: "Bree Serif", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+span {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: white;
+    color: black;
+  }
+}
